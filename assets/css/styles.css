@@ -77,8 +77,6 @@ a:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 3px; }
 .hero-figure img {
   width: 100%;
   height: auto;
-  aspect-ratio: 4 / 5;
-  object-fit: cover;
   background: var(--color-bg-alt);
 }
 .hero-title {
@@ -129,8 +127,6 @@ a:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 3px; }
   width: 100%;
   height: auto;
   background: var(--color-bg-alt);
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
 }
 
 /* -------- Prose -------- */
