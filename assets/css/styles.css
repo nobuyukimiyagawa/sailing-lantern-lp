@@ -326,9 +326,13 @@ a:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 3px; }
   margin-top: var(--space-s);
 }
 
-/* -------- Mobile: full-bleed (no horizontal padding) -------- */
+/* -------- Mobile: full-bleed images, padded text -------- */
 @media (max-width: 720px) {
-  :root { --gutter: 0px; }
+  .hero-figure,
+  .section-figure {
+    margin-left: calc(-1 * var(--gutter));
+    margin-right: calc(-1 * var(--gutter));
+  }
 }
 
 /* -------- Motion (minimal) -------- */
